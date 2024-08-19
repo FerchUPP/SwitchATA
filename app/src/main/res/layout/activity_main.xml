@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/mainTitle_1"
+        style="@style/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="-4dp"
+        android:text="Preparate para tu transición"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/mainTitle_2"
+        style="@style/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-4dp"
+        android:text="y elige el iPhone adecuado"
+        android:textSize="25sp" />
+
+    <Button
+        style="@style/light"
+        android:id="@+id/btnCompare"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/circular_button"
+        android:text="Comparar modelos"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center" />
+
+    <Button
+        style="@style/light"
+        android:id="@+id/btnRecommend"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/circular_button"
+        android:text="Obtener recomendación"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/subtitle1_menu"
+        style="@style/light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="350dp"
+        android:textAlignment="center"
+        android:text="El precio de los modelos puede variar dependiendo"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/subtitle2_menu"
+        style="@style/light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-2dp"
+        android:textAlignment="center"
+        android:text="de las tendencias del mercado"
+        android:textSize="15sp" />
+
+</LinearLayout>

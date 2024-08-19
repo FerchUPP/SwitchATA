@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="light">
+        <item name="android:fontFamily">@font/applelight</item>
+    </style>
+    <style name="medium">
+        <item name="android:fontFamily">@font/applemedium</item>
+    </style>
+    <style name="sb">
+        <item name="android:fontFamily">@font/applesemibold</item>
+    </style>
+</resources>

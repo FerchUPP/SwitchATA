@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269116154523",
+    "project_id": "dbipm-2dcfc",
+    "storage_bucket": "dbipm-2dcfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269116154523:android:be2004f67c95e847619c3e",
+        "android_client_info": {
+          "package_name": "com.example.transicionapple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269116154523-hhqvl0a4aub9mujlebuiaojkgcj40gma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnO9JDvDB9oCVIbZaMJQGH0A9_Xi0lK6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269116154523-hhqvl0a4aub9mujlebuiaojkgcj40gma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

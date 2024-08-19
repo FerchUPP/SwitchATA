@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/appN4me"
+        style="@style/light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-5dp"
+        android:textAlignment="center"
+        android:text="SwitchATA"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="-10dp"
+        android:src="@drawable/icon_switchata_cut"
+        android:contentDescription="Logo de la aplicación"
+        android:scaleType="fitCenter"/>
+
+    <Button
+        style="@style/light"
+        android:id="@+id/sign_in_button"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/circular_button"
+        android:text="Iniciar sesión con Google"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center" />
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CompareActivity">
+
+    <!-- Botón de regreso al menú -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backToMenuButton"
+            android:layout_width="27dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="Regresar al menú"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_icon" />
+
+    </RelativeLayout>
+
+    <!-- Texto descriptivo -->
+
+
+    <TextView
+        style="@style/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-4dp"
+        android:text="Selecciona los modelos"
+        android:textSize="25sp" />
+
+    <TextView
+        style="@style/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="que desees comparar"
+        android:textSize="25sp" />
+
+    <!-- Listas desplegables para seleccionar los modelos -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <!-- Primer Spinner -->
+        <Spinner
+            style="@style/light"
+            android:id="@+id/spinnerModel1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Segundo Spinner -->
+        <Spinner
+            style="@style/light"
+            android:id="@+id/spinnerModel2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- Botón para comparar los modelos -->
+    <Button
+        android:id="@+id/compareButton"
+        style="@style/light"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/circular_button"
+        android:text="Comparar"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <!-- RecyclerView para mostrar la comparación -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>
